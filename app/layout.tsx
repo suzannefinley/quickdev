@@ -5,7 +5,6 @@ import '@/components/Footer';
 //import Footer from '@/components/Footer';
 import { Toaster } from '@/components/ui/sonner';
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { Analytics } from '@vercel/analytics/next';
 
 const robotoSans = Roboto({
@@ -38,7 +37,7 @@ export default function RootLayout({
         <Toaster />
 
         {children}
-
+        <Analytics />
         {/* <Footer /> */}
       </body>
     </html>
