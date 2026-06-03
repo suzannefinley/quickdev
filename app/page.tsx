@@ -268,8 +268,16 @@ export default function Home() {
                   </a>
                 </div> */}
               </div>
-              <div className=" md:ml-4 lg:pr-2 xl:mx-10 md:justify-center md:items-center">
+              {/* <div className=" md:ml-4 lg:pr-2 xl:mx-10 md:justify-center md:items-center">
                 <HeroCarousel templates={templates} />
+              </div> */}
+              <div className="mt-10 relative w-full rounded-2xl overflow-hidden shadow-2xl aspect-video mr-4">
+                <iframe
+                  suppressHydrationWarning={true}
+                  className="w-full h-full shadow-2xl relative z-10 border-4 border-white rounded-2xl"
+                  src="https://www.youtube.com/embed/_fK2nK2o-w8?autoplay=1&rel=0&modestbranding=1"
+                  allowFullScreen
+                />
               </div>
             </div>
           </div>
